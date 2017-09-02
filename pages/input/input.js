@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    motto: 0
   },
 
   /**
@@ -14,7 +14,13 @@ Page({
   onLoad: function (options) {
   
   },
-
+  bindViewTap: function () {
+    motto :  10
+    //wx.navigateTo({
+      //url: '../logs/logs'
+      //url: '../input/input'
+    //})
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
