@@ -24,5 +24,17 @@ Page({
         userInfo:userInfo
       })
     })
+    wx.request({
+      url: 'http://localhost:1337/user/list',
+      method: 'get',
+      success :(res) => {
+        this.setData({
+          motto: res
+        })
+      },
+      fail: function() {
+        console.log('fail')
+      }
+    })
   }
 })
