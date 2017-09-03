@@ -15,7 +15,11 @@ Page({
   
   },
   bindViewTap: function () {
-    motto :  10
+
+    this.setData({
+      motto: 10
+    })
+   
     //wx.navigateTo({
       //url: '../logs/logs'
       //url: '../input/input'
