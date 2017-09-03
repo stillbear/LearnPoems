@@ -1,0 +1,23 @@
+{
+  "name": "sails",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stillbear/LearnPoems.git"
+  },
+  "author": "yunfang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stillbear/LearnPoems/issues"
+  },
+  "homepage": "https://github.com/stillbear/LearnPoems#readme"
+}
