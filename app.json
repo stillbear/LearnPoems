@@ -1,12 +1,14 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/input/input"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "LearnPoems",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
   }
 }
+
