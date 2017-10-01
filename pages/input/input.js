@@ -1,76 +1,81 @@
 // input.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
-    motto: 0
+    index :  0,
+    button:['','','']
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-  
-  },
-  bindViewTap: function () {
-
+  word1: function () {
+    this.data.button[this.data.index] = '我'
+    this.data.index+=1
+    this.data.index = this.data.index % 3
+    console.log(this.data.index)
+    console.log(this.data.button)
     this.setData({
-      motto: 10
+      //index: index + 1,
+      button:this.data.button
     })
+  },
    
-    //wx.navigateTo({
-      //url: '../logs/logs'
-      //url: '../input/input'
-    //})
-  },
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
+  word2: function () {
+    this.data.button[this.data.index] = '爱'
+    this.data.index += 1
+    this.data.index = this.data.index % 3
+    console.log(this.data.index)
+    console.log(this.data.button)
+    this.setData({
+      //index: index + 1,
+      button: this.data.button
+    })
   },
 
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
+  word3: function () {
+    this.data.button[this.data.index] = '你'
+    this.data.index += 1
+    this.data.index = this.data.index % 3
+    console.log(this.data.index)
+    console.log(this.data.button)
+    this.setData({
+      //index: index + 1,
+      button: this.data.button
+    })
+  },
   
+  text1: function () {
+    this.data.button[this.data.index] = ''
+    this.data.index += 1
+    this.data.index = this.data.index % 3
+    console.log(this.data.index)
+    console.log(this.data.button)
+    this.setData({
+      //index: index + 1,
+      button: this.data.button
+    })
   },
 
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
+  text2: function () {
+    this.data.button[this.data.index] = ''
+    this.data.index += 1
+    this.data.index = this.data.index % 3
+    console.log(this.data.index)
+    console.log(this.data.button)
+    this.setData({
+      //index: index + 1,
+      button: this.data.button
+    })
   },
 
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
+  text3: function () {
+    this.data.button[this.data.index] = ''
+    this.data.index += 1
+    this.data.index = this.data.index % 3
+    console.log(this.data.index)
+    console.log(this.data.button)
+    this.setData({
+      //index: index + 1,
+      button: this.data.button
+    })
   },
 
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
-  }
 })
